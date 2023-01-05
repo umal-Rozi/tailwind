@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="tailwind.min.css">
+</head>
+<body>
+    <div class="container mx-auto py-4">
+        <h1 class="text-2xl text-purple-900 font-semibold">flexbox</h1>
+    </div>
+
+    <div class="container mx-auto py-4">
+        <div class="flex gap-3  justify-around">
+         <div class="bg-yellow-800 text-white p-6 transform rotate-12 shoow-saw rounded">B1</div>
+        <div class="bg-yellow-800 text-white p-6  transform rotate-45 rounded-2xl">B2</div>
+        <div class="bg-yellow-800 text-white p-6 transform -rotate-45 rounded-full">B3</div>
+        <div class="bg-yellow-800 text-white p-6 transform  hover:-rotate-45 transition">B3</div>
+        <div class="bg-yellow-600 text-white p-6 transform hover:scale-150  transition">B5</div>
+        <div class="bg-yellow-600 text-white p-6 transform hover:skew-y-12">B5</div>
+        </div>
+    </div>
+
+    <div class="container mx-auto py-4">
+        <div class="flex gap-3">
+            <div class="bg-yellow-800 text-white p-6 w-1/3">B1</div>
+        <div class="bg-yellow-800 text-white p-6 w-1/3">B2</div>
+        <div class="bg-yellow-800 text-white p-6 w-1/3">B3</div>
+       
+        </div>
+
+        <div class="container mx-auto py-4">
+            <div class="flex gap-2">
+                <div class="bg-yellow-800 text-white p-6 flex-auto">B1</div>
+            <div class="bg-yellow-800 text-white p-6 flex-auto">B2</div>
+            <div class="bg-yellow-800 text-white p-6 flex-auto">B3 yeyeyeyeyey</div>
+            </div>
+        </div>
+
+        <div class="container mx-auto py-4">
+            <div class="flex items-start gap-2">
+                <div class="bg-yellow-600 text-white p-6 flex-1">B1</div>
+            <div class="bg-yellow-600 text-white p-6 flex-1">B2</div>
+            <div class="bg-yellow-600 text-white p-6 flex-1 h-96 flex justify-centenr items-center bg-gradient-to-r from-yellow-600  via-indigo-900 to-black">markstoood meeel ila joogtid baa faraxad 
+                mabsuuudaayeee  hagya maqnaaan mar qudha ilaah mawdka kaa qariyee 👩🏻‍🤝‍👩🏼 ❤️
+            </div>
+            </div>
+        </div>
+
+    <div class="container mx-auto py-4">
+        <div class="flex flex-col gap-3">
+            <div class="bg-yellow-800 text-white p-6">B1</div>
+        <div class="bg-yellow-800 text-white p-6">B2</div>
+        <div class="bg-yellow-800 text-white p-6">B3</div>
+        </div>
+    </div>
+
+    <div class="container mx-auto py-6">
+        <div class="flex  gap-2 justify-between">
+            <div class="bg-yellow-800 text-white p-6">B1</div>
+        <div class="bg-yellow-800 text-white p-6">B2</div>
+       
+        </div>
+    </div>
+
+</body>
+</html>
